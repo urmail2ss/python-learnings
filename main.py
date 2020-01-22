@@ -1,9 +1,10 @@
-## Data Types
-print (type(4))
-print (type(4/3))
-print (type(4.3))
-print (type(4 * 3))
-print ((4 ** 3))
-print ((4 // 3))
-print ((4 % 3))
+counter = 0
 
+counter += 1
+counter /= 2
+counter += 3
+counter /= 5
+counter -= 1
+counter *=2
+
+print(counter)
