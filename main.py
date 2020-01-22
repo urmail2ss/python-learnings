@@ -1,3 +1,6 @@
+# Augmented Assignment Operator
+# https://docs.python.org/2.0/ref/augassign.html
+
 counter = 0
 
 counter += 1
