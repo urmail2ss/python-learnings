@@ -1,4 +1,9 @@
-## Hello World Example
-name = input("What is your name? ")
-print("Hello " + name + "!!!")
+## Data Types
+print (type(4))
+print (type(4/3))
+print (type(4.3))
+print (type(4 * 3))
+print ((4 ** 3))
+print ((4 // 3))
+print ((4 % 3))
 
