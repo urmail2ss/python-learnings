@@ -7,9 +7,9 @@ print('----------------------------------');
 print("Using String in double quotes");
 print('----------------------------------');
 
-# String can be used in multiline split using ''' (triple quotes)
+print("String can be used in multiline split using ''' (triple quotes)");
+print('----------------------------------');
 print(''' 
-
 Printing 
 
 long strings using 
@@ -20,11 +20,13 @@ on multiple lines in codes
 
 ''');
 print('----------------------------------');
-#String Escape
-print("Hi, I am excaping double quotes \" char ");
+print("String Escape")
+print('----------------------------------');
+print("Hi, I am escaping double quotes \" char ");
 
 print('----------------------------------');
-# String Formattings
+print('String Formatting ');
+print('----------------------------------');
 
 print("Hello {}, your balance is {}.".format("Cindy", 50))
 
@@ -34,8 +36,15 @@ print("Hello {name}, your balance is {amount}.".format(name="Cindy", amount=50))
 
 print("Hello {0}, your balance is {amount}.".format("Cindy", amount=50))
 
+
 print('----------------------------------');
-# String concatenation
+# String index str[start:stop]
+print("String index str[start:stop]");
+print("String index example "[0:10]);
+
+print('----------------------------------');
+print('String concatenation');
+print('----------------------------------');
 # Can done only with other string not with other datatype
 # If want to concatenate need cast to string
 first_name = 'Shan'
